@@ -64,7 +64,7 @@
 									<li>Python com foco em análise de dados.</li>
 									<li>Web scraping com Python.</li>
 									<li>SQL para extração de dados.</li>
-									<li>Banco de Dados SQLite, Postgres.</li>
+									<li>Banco de Dados Postgres.</li>
 								</ul>
 							</section>
 						</div>
@@ -73,7 +73,8 @@
 								<span class="fas fa-laptop-code"></span>
 								<h3>Estatística e Machine Learning</h3>
 								<ul>
-									<li>Estatística Descritiva (localização, dispersão, assimetria, kurtosis, densidade).</li>
+									<li>Estatística Descritiva e Inferêncial(localização, dispersão, assimetria, kurtosis, densidade, testes de hipótese, Teste A/B).</li>
+									
 									<li>Algoritmos de Regressão, classificação.</li>
 									<li>Técnicas de seleção de atributos.</li>
 									<li>Métricas de performance dos algoritmons (RMSE, MAE, MAPE, Confusion Matrix, Precisão, Recall, Curva ROC, Curva Lift, AUC).</li>
@@ -120,7 +121,7 @@
 						<article>
 							
 							<div class="content">
-								<h2>3 Projetos completos de Ciência de Dados</h2>
+								<h2>5 Projetos completos de Ciência de Dados</h2>
 								<p>Desenvolvimento de soluções de dados para problemas de negócio, próximos dos desafios reais das empresas. Nesses projetos, foram utilizados dados públicos de competições de Ciência de Dados, em que os problemas foram abordados desde a concepção do problema de negócio até a publicação do algoritmo treinado em produção — deploy do modelo em uma ferramenta de Cloud Computing.</p>
 							</div>
 						</article>
@@ -132,7 +133,7 @@
 								<li>Setor de Fiscalização e Controle de Obras.</li>
 								<li>Elaboração de medições de obras – pavimentação e edificações.</li>
 								<li>Confecção de relatórios fotográficos.</li>
-									<li>Levantamento de quantitativos de obras..</li></p>
+									<li>Levantamento de quantitativos de obras.</li></p>
 							</div>
 						</article>
 						<article>
@@ -158,7 +159,7 @@
 							<article class="box style2">
 								<a href="https://github.com/BrenoTeixeira/house-rocket-insights-project" class="image featured"><img src="images/housep.jpg" alt="" /></a>
 								<h3><a href="https://github.com/BrenoTeixeira/house-rocket-insights-project">Identificação de imóveis para compra e venda a fim de maximizar o lucro.</a></h3>
-								<p>Este projeto foi desenvolvido levando em consideração uma estratégia conhecida como flipping — a empresa compra imóveis que necessitam de reparos, realiza os reparos e revende-os. Utilizando Python, através de um análise exploratória, foi possível identificar de imóveis abaixo de preço médio de venda e definir do preço ideal para vendê-los após as reformas.</p>
+								<p>Este projeto foi desenvolvido levando em consideração uma estratégia conhecida como flipping — a empresa compra imóveis que necessitam de reparos, realiza os reparos e os revende. Utilizando Python, através de um análise exploratória, foi possível identificar de imóveis abaixo de preço médio de venda e definir do preço ideal para vendê-los após as reformas.</p>
 								<h4>As ferramentas utilizadas foram:</h4>
 									
 									<ul>
@@ -194,7 +195,10 @@
 							<article class="box style2">
 								<a href="https://github.com/BrenoTeixeira/health_insurance_ranking" class="image featured"><img src="images/cross_sell.png" alt="" /></a>
 								<h3><a href="https://github.com/BrenoTeixeira/health_insurance_ranking">Priorização de clientes para venda cruzada - Insurance company.</a></h3>
-								<p>Neste projeto, foi utilizado um algoritmo de classificação para desenvolver um modelo que designa pontuações aos clientes .
+								<p>Neste projeto, foi desenvolvido um modelo de classificação para determinar a propensão dos clientes de comprar um novo produto (seguro de veículo). Os clientes foram ordendos, em ordem decrescente, de acordo com a propensão de compra prevista pelo modelo. Isso permitiu que o time de vendas priorizasse os clientes com maior chance de adquirir o novo produto.
+								</br><br>
+								Como o time time de vendas tem capacidade de realizar apenas 20.000 ligações, espera-se atingir 42% dos clientes interessados, isso significa 2.66 vezes mais receita (Rs 29,412,000) do que se as ligações fossem feitas de forma aleatória.
+								Para facilitar o acesso às previsões do modelo, foi criado um script no GoogleSheets que permite ao usuário obter as previsões do modelo e ordenar a lista de clientes automaticamente com apenas um click.
 								</p>
 								<h4>As ferramentas utilizadas foram:</h4>
 									
@@ -210,9 +214,13 @@
 	
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://github.com/BrenoTeixeira/health_insurance_ranking" class="image featured"><img src="images/mens-light-blue-jeans-shop.png" alt="" /></a>
-								<h3><a href="https://github.com/BrenoTeixeira/health_insurance_ranking">Processo de ETL e monitoramento  de preços de competidores para um E-commerce.</a></h3>
-								<p>Neste projeto eu utilizei Python, Estatística, Algoritmos de Classificação para prever doenças cardíacas em estágio inicial.
+								<a href="https://github.com/BrenoTeixeira/star_jeans_ETL_and_visualization" class="image featured"><img src="images/mens-light-blue-jeans-shop.png" alt="" /></a>
+								<h3><a href="https://github.com/BrenoTeixeira/star_jeans_ETL_and_visualization">Processo de ETL e monitoramento  de preços de competidores para um E-commerce.</a></h3>
+								<p>Projeto de ETL e visualização de dados com o objetivo de ajudar uma um e-commerce do ramo da moda a definir seus produtos e preços de acordo com o mercado.
+								</br><br>
+								Neste projeto, foram utilizadas técnicas de Webscraping (Beautiful Soup) para coletar os dados dos sites de dois concorrentes. Os dados foram tratados com Regex (regular expressions) e outras técnicas de limpeza de dados, e, então, foram salvos em banco de dados Postgres.
+								</br><br>
+								Para automatizar todo esse processo, foi utilizado o Airflow para agendamento das tarefas. E foi criado um dashboard no PowerBI para monitorar os preços dos concorrentes diariamente.
 								</p>
 								<h4>As ferramentas utilizadas foram:</h4>
 									
@@ -229,8 +237,8 @@
 					<div class="row"></div>
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://github.com/BrenoTeixeira/health_insurance_ranking" class="image featured"><img src="images/heart-attack-800x495.jpg" alt="" /></a>
-								<h3><a href="https://github.com/BrenoTeixeira/health_insurance_ranking">Previsão de doenças cardíacas em estágios iniciais.</a></h3>
+								<a href="https://github.com/BrenoTeixeira/cardio_catch_disease" class="image featured"><img src="images/heart-attack-800x495.jpg" alt="" /></a>
+								<h3><a href="https://github.com/BrenoTeixeira/cardio_catch_disease">Previsão de doenças cardíacas em estágios iniciais.</a></h3>
 								<p>Neste projeto eu utilizei Python, Estatística e Algoritmos de Classificação para prever doenças cardíacas em estágios iniciais. O valor do diagnóstico dado pela empresa é baseado em sua precisão. Visando aumentar os ganhos da empresa, este projeto foi desenvolvido para auxiliar o time que realiza os diagnósticos e, dessa forma, aumentar a precisão dos diagnósticos. Comparando com a situação atual, ao implementarmos o modelo, é esperado 83,33% de aumento no lucro de cada diagnóstico. As previsões do modelo podem ser obtidas via googlesheets.
 								</p>
 								<h4>As ferramentas utilizadas foram:</h4>
